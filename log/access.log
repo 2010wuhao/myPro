@@ -1,0 +1,2 @@
+10.75.109.117 - - [30/Sep/2017:16:56:20 +0800] "GET / HTTP/1.1" 200 2015 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36"
+10.75.109.117 - - [30/Sep/2017:16:56:20 +0800] "GET /favicon.ico HTTP/1.1" 404 209 "http://10.75.109.117/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36"

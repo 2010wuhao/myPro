@@ -1,0 +1,33 @@
+# You may add here your
+# server {
+#	...
+# }
+# statements for each of your virtual hosts to this file
+
+##
+# You should look at the following URL's in order to grasp a solid understanding
+# of Nginx configuration files in order to fully unleash the power of Nginx.
+# http://wiki.nginx.org/Pitfalls
+# http://wiki.nginx.org/QuickStart
+# http://wiki.nginx.org/Configuration
+#
+# Generally, you will want to move this file somewhere, and start with a clean
+# file but keep this around for reference. Or just disable in sites-enabled.
+#
+# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
+server {
+    listen 80; #默认的web访问端口
+    server_name 10.57.109.117; #你的公网ip
+    access_log  /dataspace/study/PythonPro/testFlask/log/access.log; #服务器接收的请求日志，需要在项目文件夹下创建,logs文件夹，下同。
+     error_log  /dataspace/study/PythonPro/testFlask/log/error.log; #错误日志
+
+    location / {
+        include      uwsgi_params;  #这里是导入的uwsgi配置
+        uwsgi_pass 127.0.0.1:8000; # 需要和uwsgi的配置文件里socket项的地址相同,否则无法让uwsgi接收到请求. 指向uwsgi 所应用的内部地址,所有请求将转发给uwsgi 处理
+        uwsgi_param UWSGI_PYHOME /dataspace/study/PythonPro/testFlask/venv; # 指向虚拟环境目录
+        uwsgi_param UWSGI_CHDIR /dataspace/study/PythonPro/testFlask/app;  # 指向网站根目录
+        uwsgi_param UWSGI_SCRIPT test:testFlaskApp; # 指定启动程序
+        uwsgi_read_timeout 100;
+    }
+}
+
