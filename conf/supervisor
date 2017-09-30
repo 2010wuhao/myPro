@@ -1,6 +1,6 @@
 [program:my_flask]
-command     = /dataspace/study/PythonPro/testFlask/venv/bin/uwsgi /dataspace/study/PythonPro/testFlask/conf/config.ini
-directory   = /dataspace/study/PythonPro/testFlask/app
+command     = /work/PythonPro/testFlask/venv/bin/uwsgi /work/PythonPro/testFlask/conf/config.ini
+directory   = /work/PythonPro/testFlask/app
 user        = wuh
 #startsecs   = 3
 
@@ -9,5 +9,5 @@ autorestart = true
 redirect_stderr         = true
 stdout_logfile_maxbytes = 50MB
 stdout_logfile_backups  = 10
-stdout_logfile          = /dataspace/study/PythonPro/testFlask/log/supervisor.log
+stdout_logfile          = /work/PythonPro/testFlask/log/supervisor.log
 

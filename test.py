@@ -3,7 +3,12 @@
 import os
 
 from flask import Flask
-app = Flask(__name__)
+
+def creat_app():
+    app = Flask(__name__)
+    return app
+
+testFlaskApp = creat_app()
 
 #user lib
 from testFile import JsonUtil
@@ -11,10 +16,10 @@ from testFile import JsonUtil
 #du qu json wenjian
 JsonUtil = JsonUtil()
 
-@app.route('/')
+@testFlaskApp.route('/')
 def hello_world():
     return JsonUtil.getBjtq()
 
 if __name__ == '__main__':
-    app.DEBUG=True
-    app.run()
+    testFlaskApp.DEBUG=True
+    testFlaskApp.run()
