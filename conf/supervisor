@@ -1,13 +1,13 @@
 [program:my_flask]
-command     = /work/PythonPro/testFlask/venv/bin/uwsgi /work/PythonPro/testFlask/conf/config.ini
-directory   = /work/PythonPro/testFlask/app
+command     = /home/wuh/work/myGit/myPro/app/test.py
+directory   = /home/wuh/work/myGit/myPro/app
 user        = wuh
 #startsecs   = 3
 
 autostart=true
 autorestart = true
-redirect_stderr         = true
+redirect_stderr = true
 stdout_logfile_maxbytes = 50MB
-stdout_logfile_backups  = 10
-stdout_logfile          = /work/PythonPro/testFlask/log/supervisor.log
+stdout_logfile_backups = 10
+stdout_logfile = /home/wuh/work/myGit/myPro/log/supervisor.log
 

@@ -1,0 +1,7 @@
+uwsgi config.ini
+
+sudo cp supervisor /etc/supervisor/conf.d/awesome.conf
+sudo service supervisor start
+
+sudo cp nginx /etc/nginx/sites-available/default
+sudo service nginx restart

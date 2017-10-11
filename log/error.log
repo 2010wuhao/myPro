@@ -1,0 +1,2 @@
+2017/10/11 16:28:22 [error] 7662#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.75.109.117, server: 10.57.109.117, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8000", host: "10.75.109.117"
+2017/10/11 16:28:22 [error] 7662#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.75.109.117, server: 10.57.109.117, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://127.0.0.1:8000", host: "10.75.109.117", referrer: "http://10.75.109.117/"

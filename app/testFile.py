@@ -23,7 +23,7 @@ class JsonUtil(object):
 
 
 #du qu json wenjian
-BJ_TQ_ZL = './json/bjkqzl.json'
-BJ_TQ = './json/bjtq.json'
+BJ_TQ_ZL = '../json/bjkqzl.json'
+BJ_TQ = '../json/bjtq.json'
 #a = JsonUtil()
 #print a.getBjtq();
