@@ -5,81 +5,81 @@
     "city": "北京",
     "cityid": "1",
     "citycode": "101010100",
-    "date": "2017-09-21",
-    "week": "星期四",
-    "weather": "阵雨",
-    "temp": "22",
-    "temphigh": "29",
-    "templow": "17",
-    "img": "3",
-    "humidity": "54",
-    "pressure": "1010",
-    "windspeed": "0.0",
-    "winddirect": "东风",
+    "date": "2017-11-29",
+    "week": "星期三",
+    "weather": "晴",
+    "temp": "-4",
+    "temphigh": "7",
+    "templow": "-4",
+    "img": "00",
+    "humidity": "20",
+    "pressure": "1036",
+    "windspeed": "1.4",
+    "winddirect": "东北风",
     "windpower": "1级",
-    "updatetime": "2017-09-21 10:19:59",
+    "updatetime": "2017-11-29 09:18:00",
     "index": [
       {
         "iname": "空调指数",
-        "ivalue": "较少开启",
-        "detail": "您将感到很舒适，一般不需要开启空调。"
+        "ivalue": "开启制暖空调",
+        "detail": "您将感到有些冷，可以适当开启制暖空调调节室内温度，以免着凉感冒。"
       },
       {
         "iname": "运动指数",
         "ivalue": "较不宜",
-        "detail": "有降水，推荐您在室内进行低强度运动；若坚持户外运动，须注意选择避雨防滑并携带雨具。"
+        "detail": "天气较好，但考虑天气寒冷，推荐您进行各种室内运动，若在户外运动请注意保暖并做好准备活动。"
       },
       {
         "iname": "紫外线指数",
-        "ivalue": "弱",
-        "detail": "紫外线强度较弱，建议出门前涂擦SPF在12-15之间、PA+的防晒护肤品。"
+        "ivalue": "最弱",
+        "detail": "属弱紫外线辐射天气，无需特别防护。若长期在户外，建议涂擦SPF在8-12之间的防晒护肤品。"
       },
       {
         "iname": "感冒指数",
-        "ivalue": "少发",
-        "detail": "各项气象条件适宜，无明显降温过程，发生感冒机率较低。"
+        "ivalue": "易发",
+        "detail": "昼夜温差很大，易发生感冒，请注意适当增减衣服，加强自我防护避免感冒。"
       },
       {
         "iname": "洗车指数",
-        "ivalue": "不宜",
-        "detail": "不宜洗车，未来24小时内有雨，如果在此期间洗车，雨水和路上的泥水可能会再次弄脏您的爱车。"
+        "ivalue": "较适宜",
+        "detail": "较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"
       },
       {
         "iname": "空气污染扩散指数",
-        "ivalue": "良",
-        "detail": "气象条件有利于空气污染物稀释、扩散和清除，可在室外正常活动。"
+        "ivalue": "较差",
+        "detail": "气象条件较不利于空气污染物稀释、扩散和清除，请适当减少室外活动时间。"
       },
       {
         "iname": "穿衣指数",
-        "ivalue": "热",
-        "detail": "天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。"
+        "ivalue": "冷",
+        "detail": "天气冷，建议着棉服、羽绒服、皮夹克加羊毛衫等冬季服装。年老体弱者宜着厚棉衣、冬大衣或厚羽绒服。"
       }
     ],
     "aqi": {
-      "so2": "6",
-      "so224": "4",
-      "no2": "70",
-      "no224": "58",
-      "co": "0.930",
-      "co24": "0.580",
-      "o3": "15",
-      "o38": "13",
-      "o324": "16",
-      "pm10": "107",
-      "pm1024": "76",
-      "pm2_5": "43",
-      "pm2_524": "23",
-      "iso2": "3",
-      "ino2": "35",
-      "ico": "10",
-      "io3": "6",
-      "io38": "7",
-      "ipm10": "79",
-      "ipm2_5": "60",
-      "aqi": "79",
+      "so2": "4",
+      "so224": "3",
+      "no2": "20",
+      "no224": "20",
+      "co": "0.350",
+      "co24": "0.380",
+      "o3": "50",
+      "o38": "50",
+      "o324": "56",
+      "pm10": "72",
+      "pm1024": "30",
+      "pm2_5": "11",
+      "pm2_524": "8",
+      "iso2": "2",
+      "ino2": "10",
+      "ico": "4",
+      "io3": "16",
+      "io38": "25",
+      "ipm10": "61",
+      "ipm2_5": "16",
+      "aqi": "61",
       "primarypollutant": "PM10",
       "quality": "良",
-      "timepoint": "2017-09-21 09:00:00",
+      "timepoint": "2017-11-23 17:00:00",
       "aqiinfo": {
         "level": "二级",
         "color": "#FFFF00",
@@ -89,290 +89,290 @@
     },
     "daily": [
       {
-        "date": "2017-09-21",
-        "week": "星期四",
-        "sunrise": "06:01",
-        "sunset": "18:14",
-        "night": {
-          "weather": "阵雨",
-          "templow": "17",
-          "img": "3",
-          "winddirect": "西北风",
-          "windpower": "3-4 级"
-        },
-        "day": {
-          "weather": "阵雨",
-          "temphigh": "29",
-          "img": "3",
-          "winddirect": "西南风",
-          "windpower": "微风"
-        }
-      },
-      {
-        "date": "2017-09-22",
-        "week": "星期五",
-        "sunrise": "06:02",
-        "sunset": "18:12",
+        "date": "2017-11-28",
+        "week": "星期二",
+        "sunrise": "07:12",
+        "sunset": "16:51",
         "night": {
           "weather": "晴",
-          "templow": "14",
-          "img": "0",
-          "winddirect": "西南风",
-          "windpower": "微风"
+          "templow": "-4",
+          "img": "00",
+          "winddirect": "东北风",
+          "windpower": "3-5级"
         },
         "day": {
           "weather": "晴",
-          "temphigh": "28",
-          "img": "0",
+          "temphigh": "7",
+          "img": "00",
           "winddirect": "西北风",
-          "windpower": "微风"
+          "windpower": "4-5级"
         }
       },
       {
-        "date": "2017-09-23",
-        "week": "星期六",
-        "sunrise": "06:03",
-        "sunset": "18:10",
+        "date": "2017-11-29",
+        "week": "星期三",
+        "sunrise": "07:13",
+        "sunset": "16:51",
         "night": {
           "weather": "多云",
-          "templow": "18",
-          "img": "1",
+          "templow": "-6",
+          "img": "01",
+          "winddirect": "北风",
+          "windpower": "微风"
+        },
+        "day": {
+          "weather": "多云",
+          "temphigh": "1",
+          "img": "01",
+          "winddirect": "西南风",
+          "windpower": "微风"
+        }
+      },
+      {
+        "date": "2017-11-30",
+        "week": "星期四",
+        "sunrise": "07:14",
+        "sunset": "16:51",
+        "night": {
+          "weather": "晴",
+          "templow": "-6",
+          "img": "00",
+          "winddirect": "西南风",
+          "windpower": "微风"
+        },
+        "day": {
+          "weather": "晴",
+          "temphigh": "4",
+          "img": "00",
+          "winddirect": "西南风",
+          "windpower": "微风"
+        }
+      },
+      {
+        "date": "2017-12-01",
+        "week": "星期五",
+        "sunrise": "07:15",
+        "sunset": "16:50",
+        "night": {
+          "weather": "晴",
+          "templow": "-5",
+          "img": "00",
           "winddirect": "北风",
           "windpower": "微风"
         },
         "day": {
           "weather": "晴",
-          "temphigh": "28",
-          "img": "0",
+          "temphigh": "5",
+          "img": "00",
           "winddirect": "南风",
           "windpower": "微风"
         }
       },
       {
-        "date": "2017-09-24",
+        "date": "2017-12-02",
+        "week": "星期六",
+        "sunrise": "07:16",
+        "sunset": "16:50",
+        "night": {
+          "weather": "晴",
+          "templow": "-5",
+          "img": "00",
+          "winddirect": "北风",
+          "windpower": "微风"
+        },
+        "day": {
+          "weather": "晴",
+          "temphigh": "6",
+          "img": "00",
+          "winddirect": "北风",
+          "windpower": "微风"
+        }
+      },
+      {
+        "date": "2017-12-03",
         "week": "星期日",
-        "sunrise": "06:04",
-        "sunset": "18:09",
+        "sunrise": "07:17",
+        "sunset": "16:50",
         "night": {
           "weather": "多云",
-          "templow": "19",
-          "img": "1",
-          "winddirect": "东北风",
+          "templow": "-4",
+          "img": "01",
+          "winddirect": "北风",
           "windpower": "微风"
         },
         "day": {
           "weather": "多云",
-          "temphigh": "28",
-          "img": "1",
-          "winddirect": "东北风",
-          "windpower": "微风"
+          "temphigh": "6",
+          "img": "01",
+          "winddirect": "北风",
+          "windpower": "3-5级"
         }
       },
       {
-        "date": "2017-09-25",
+        "date": "2017-12-04",
         "week": "星期一",
-        "sunrise": "06:05",
-        "sunset": "18:07",
-        "night": {
-          "weather": "小雨",
-          "templow": "18",
-          "img": "7",
-          "winddirect": "东风",
-          "windpower": "微风"
-        },
-        "day": {
-          "weather": "阴",
-          "temphigh": "27",
-          "img": "2",
-          "winddirect": "东南风",
-          "windpower": "微风"
-        }
-      },
-      {
-        "date": "2017-09-26",
-        "week": "星期二",
-        "sunrise": "07:30",
-        "sunset": "19:30",
-        "night": {
-          "weather": "多云",
-          "templow": "16",
-          "img": "1",
-          "winddirect": "东北风",
-          "windpower": "微风"
-        },
-        "day": {
-          "weather": "阵雨",
-          "temphigh": "26",
-          "img": "3",
-          "winddirect": "东北风",
-          "windpower": "微风"
-        }
-      },
-      {
-        "date": "2017-09-27",
-        "week": "星期三",
-        "sunrise": "07:30",
-        "sunset": "19:30",
+        "sunrise": "07:18",
+        "sunset": "16:50",
         "night": {
           "weather": "晴",
-          "templow": "11",
-          "img": "0",
-          "winddirect": "东北风",
+          "templow": "-4",
+          "img": "00",
+          "winddirect": "西北风",
           "windpower": "微风"
         },
         "day": {
           "weather": "晴",
-          "temphigh": "23",
-          "img": "0",
-          "winddirect": "东北风",
-          "windpower": "微风"
+          "temphigh": "5",
+          "img": "00",
+          "winddirect": "南风",
+          "windpower": "3-5级"
         }
       }
     ],
     "hourly": [
       {
+        "time": "10:00",
+        "weather": "多云",
+        "temp": "0",
+        "img": "01"
+      },
+      {
         "time": "11:00",
-        "weather": "晴",
-        "temp": "24",
-        "img": "0"
+        "weather": "多云",
+        "temp": "0",
+        "img": "01"
       },
       {
         "time": "12:00",
-        "weather": "晴",
-        "temp": "26",
-        "img": "0"
+        "weather": "多云",
+        "temp": "1",
+        "img": "01"
       },
       {
         "time": "13:00",
-        "weather": "晴",
-        "temp": "28",
-        "img": "0"
+        "weather": "多云",
+        "temp": "1",
+        "img": "01"
       },
       {
         "time": "14:00",
         "weather": "多云",
-        "temp": "29",
-        "img": "1"
+        "temp": "1",
+        "img": "01"
       },
       {
         "time": "15:00",
-        "weather": "晴",
-        "temp": "29",
-        "img": "0"
+        "weather": "多云",
+        "temp": "1",
+        "img": "01"
       },
       {
         "time": "16:00",
         "weather": "多云",
-        "temp": "29",
-        "img": "1"
+        "temp": "0",
+        "img": "01"
       },
       {
         "time": "17:00",
         "weather": "多云",
-        "temp": "28",
-        "img": "1"
+        "temp": "-1",
+        "img": "01"
       },
       {
         "time": "18:00",
-        "weather": "阵雨",
-        "temp": "26",
-        "img": "3"
+        "weather": "多云",
+        "temp": "-2",
+        "img": "01"
       },
       {
         "time": "19:00",
         "weather": "多云",
-        "temp": "24",
-        "img": "1"
+        "temp": "-3",
+        "img": "01"
       },
       {
         "time": "20:00",
-        "weather": "多云",
-        "temp": "23",
-        "img": "1"
+        "weather": "晴",
+        "temp": "-4",
+        "img": "00"
       },
       {
         "time": "21:00",
-        "weather": "多云",
-        "temp": "22",
-        "img": "1"
+        "weather": "晴",
+        "temp": "-4",
+        "img": "00"
       },
       {
         "time": "22:00",
         "weather": "多云",
-        "temp": "21",
-        "img": "1"
+        "temp": "-4",
+        "img": "01"
       },
       {
         "time": "23:00",
         "weather": "多云",
-        "temp": "21",
-        "img": "1"
+        "temp": "-5",
+        "img": "01"
       },
       {
         "time": "0:00",
         "weather": "多云",
-        "temp": "19",
-        "img": "1"
+        "temp": "-5",
+        "img": "01"
       },
       {
         "time": "1:00",
-        "weather": "晴",
-        "temp": "19",
-        "img": "0"
+        "weather": "多云",
+        "temp": "-5",
+        "img": "01"
       },
       {
         "time": "2:00",
-        "weather": "晴",
-        "temp": "18",
-        "img": "0"
+        "weather": "多云",
+        "temp": "-5",
+        "img": "01"
       },
       {
         "time": "3:00",
         "weather": "晴",
-        "temp": "18",
-        "img": "0"
+        "temp": "-5",
+        "img": "00"
       },
       {
         "time": "4:00",
         "weather": "晴",
-        "temp": "18",
-        "img": "0"
+        "temp": "-6",
+        "img": "00"
       },
       {
         "time": "5:00",
         "weather": "晴",
-        "temp": "18",
-        "img": "0"
+        "temp": "-5",
+        "img": "00"
       },
       {
         "time": "6:00",
         "weather": "晴",
-        "temp": "18",
-        "img": "0"
+        "temp": "-5",
+        "img": "00"
       },
       {
         "time": "7:00",
         "weather": "晴",
-        "temp": "19",
-        "img": "0"
+        "temp": "-4",
+        "img": "00"
       },
       {
         "time": "8:00",
         "weather": "晴",
-        "temp": "21",
-        "img": "0"
+        "temp": "-3",
+        "img": "00"
       },
       {
         "time": "9:00",
         "weather": "晴",
-        "temp": "23",
-        "img": "0"
-      },
-      {
-        "time": "10:00",
-        "weather": "晴",
-        "temp": "23",
-        "img": "0"
+        "temp": "-2",
+        "img": "00"
       }
     ]
   }

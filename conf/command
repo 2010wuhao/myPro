@@ -1,3 +1,8 @@
+1、本地虚拟环境运行
+source venv/bin/activate
+python *.py
+
+2、配置运行
 uwsgi config.ini
 
 sudo cp supervisor /etc/supervisor/conf.d/awesome.conf

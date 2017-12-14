@@ -1,5 +1,5 @@
 [program:my_flask]
-command     = /home/wuh/work/myGit/myPro/app/test.py
+command     = /home/wuh/work/myGit/myPro/app/main.py
 directory   = /home/wuh/work/myGit/myPro/app
 user        = wuh
 #startsecs   = 3
