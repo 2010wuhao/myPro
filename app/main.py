@@ -4,6 +4,7 @@
 import os
 
 from DataModel import model
+from Splider import splider
 from flask import Flask, request
 
 
@@ -11,9 +12,11 @@ def creat_app():
     app = Flask(__name__)
     return app
 
+
 app = creat_app()
 
-@app.route('/weather/api/v1.0/get_weather',methods=['GET'])
+
+@app.route('/weather/api/v1.0/get_weather', methods=['GET'])
 def getWeather():
     city = request.values.get('city')
     citycode = request.values.get('citycode')
@@ -21,11 +24,18 @@ def getWeather():
     print type(city)
     print type(citycode)
     print type(location)
-    return model.getWeatherJson(city,citycode,location)
+    return model.getWeatherJson(city, citycode, location)
 
-@app.route('/weather/api/v1.0/get_citylist',methods=['GET'])
+
+@app.route('/weather/api/v1.0/get_citylist', methods=['GET'])
 def getCityList():
     return model.getCityList()
+
+
+@app.route('/coin/api/v1.0/coin_new', methods=['GET'])
+def getCoin():
+    return splider.getCoin()
+
 
 if __name__ == '__main__':
     app.run(debug=True)
