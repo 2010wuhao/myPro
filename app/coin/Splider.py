@@ -1,23 +1,22 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 #-*- coding :utf-8 -*-
+import urllib.request
 from bs4 import BeautifulSoup
-import urllib2
 
-request = urllib2.Request("https://www.feixiaohao.com/newcoin/#CNY")
-response = urllib2.urlopen(request)
+response = urllib.request.urlopen("https://www.feixiaohao.com/newcoin/#CNY")
 soup = BeautifulSoup(response.read())
 
 f = open('./test.txt', 'w+')
 for link in soup.find_all('tr'):
     f.write("------------------")
-    f.write(link.get_text().encode('utf-8'))
+    f.write(link.get_text())
 
 f.seek(0)
 a = 0
 fnew = open('./testnew.txt', 'w')
 for line in f.readlines():
     data = line.strip()
-    if(len(data)!=0):
+    if(len(data) != 0):
         fnew.write(data)
         # fnew.write("|")
         fnew.write("\n")
@@ -25,9 +24,6 @@ for line in f.readlines():
     # elif (a==0):
     #     fnew.write("\n")
     #     a = 1
-
-
-        
 
 fnew.close
 f.close
@@ -39,9 +35,7 @@ f.close
 #         print j.select("td")[1].text
 
 #title = soup.select('table > tbody > tr:nth-child(1)')[0].get_text()
-#print title;
-
-
+# print title;
 
 
 # url = "https://www.feixiaohao.com/newcoin/"
