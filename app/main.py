@@ -4,7 +4,7 @@
 import os
 
 from DataModel import model
-from Splider import splider
+from coin.Splider import splider
 from flask import Flask, request
 
 
@@ -21,9 +21,9 @@ def getWeather():
     city = request.values.get('city')
     citycode = request.values.get('citycode')
     location = request.values.get('location')
-    print type(city)
-    print type(citycode)
-    print type(location)
+    # print type(city)
+    # print type(citycode)
+    # print type(location)
     return model.getWeatherJson(city, citycode, location)
 
 
@@ -34,6 +34,7 @@ def getCityList():
 
 @app.route('/coin/api/v1.0/coin_new', methods=['GET'])
 def getCoin():
+    print("getCoin id called!")
     return splider.getCoin()
 
 

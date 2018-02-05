@@ -4,7 +4,6 @@
 import os
 import sys
 import urllib
-import urllib2
 
 
 class DataModel:

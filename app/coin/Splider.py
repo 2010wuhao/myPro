@@ -31,7 +31,7 @@ class Splider:
         f.close
 
     def getCoin(self):
-        fnew = open('./testnew.txt', 'w')
+        fnew = open('./testnew.txt', 'r')
         data = ''
         for line in fnew.readlines():
             data += line
