@@ -50,14 +50,17 @@ class Splider:
         f.seek(0)
         a = 0
         fnew = open('./newsnew.txt', 'w')
+        newsData = ''
         for line in f.readlines():
             data = line.strip()
             if(len(data) != 0):
                 fnew.write(data)
+                newsData += data
                 # fnew.write()
 
         fnew.close
         f.close
+        return newsData
 
 
 splider = Splider()
