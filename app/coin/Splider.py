@@ -37,6 +37,29 @@ class Splider:
             data += line
         return data
 
+    def getNews(self):
+        response = urllib.request.urlopen(
+            "http://www.biknow.com/")
+        soup = BeautifulSoup(response.read())
+        f = open('./news.txt', 'w+')
+        for link in soup.find_all(id='jiazai'):
+            for li in link.find_all('li'):
+                f.write("|")
+                f.write(li.get_text())
+
+        f.seek(0)
+        a = 0
+        fnew = open('./newsnew.txt', 'w')
+        for line in f.readlines():
+            data = line.strip()
+            if(len(data) != 0):
+                fnew.write(data)
+                fnew.write()
+
+        fnew.close
+        f.close
+        
 
 splider = Splider()
-splider.initData()
+# splider.initData()
+splider.getNews()
