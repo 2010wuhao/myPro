@@ -38,5 +38,11 @@ def getCoin():
     return splider.getCoin()
 
 
+@app.route('/coin/api/v1.0/coin_news', methods=['GET'])
+def getNews():
+    print("getCoin id called!")
+    return splider.getNews()
+
+
 if __name__ == '__main__':
     app.run(debug=True)

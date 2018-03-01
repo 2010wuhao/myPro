@@ -1,0 +1,17 @@
+{
+    "errno": 10000,
+    "data": {
+        "table": [
+            {
+                "name": "名称",
+                "short_name": "简称",
+                "market_value": "流通市值",
+                "price": "当前价格",
+                "circulation": "流通量",
+                "business_24": "成交量(24小时)",
+                "rise_24": "涨幅幅(24小时)",
+                "listing": "上市时间"
+            }
+        ]
+    }
+}

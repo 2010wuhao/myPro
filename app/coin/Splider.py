@@ -54,11 +54,11 @@ class Splider:
             data = line.strip()
             if(len(data) != 0):
                 fnew.write(data)
-                fnew.write()
+                # fnew.write()
 
         fnew.close
         f.close
-        
+
 
 splider = Splider()
 # splider.initData()
