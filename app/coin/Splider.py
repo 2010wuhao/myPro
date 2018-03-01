@@ -65,4 +65,4 @@ class Splider:
 
 splider = Splider()
 # splider.initData()
-splider.getNews()
+# splider.getNews()

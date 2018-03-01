@@ -34,13 +34,13 @@ def getCityList():
 
 @app.route('/coin/api/v1.0/coin_new', methods=['GET'])
 def getCoin():
-    print("getCoin id called!")
+    print("getCoin is called!")
     return splider.getCoin()
 
 
 @app.route('/coin/api/v1.0/coin_news', methods=['GET'])
 def getNews():
-    print("getCoin id called!")
+    print("getNews is called!")
     return splider.getNews()
 
 
