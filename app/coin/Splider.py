@@ -25,7 +25,7 @@ class Splider:
             data = line.strip()
             if(len(data) != 0):
                 fnew.write(data)
-                fnew.write(",")
+                fnew.write("#")
 
         fnew.close
         f.close
@@ -56,7 +56,7 @@ class Splider:
             if(len(data) != 0):
                 fnew.write(data)
                 newsData += data
-                # fnew.write()
+                fnew.write('#')
 
         fnew.close
         f.close
