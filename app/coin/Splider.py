@@ -64,5 +64,6 @@ class Splider:
 
 
 splider = Splider()
-# splider.initData()
+splider.initData()
+splider.getCoin()
 # splider.getNews()
