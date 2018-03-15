@@ -10,9 +10,26 @@ class Splider:
         print("Splider __init__")
 
     def initData(self):
+        #  # 获取某个币的文本介绍 begin
+        # response = urllib.request.urlopen(
+        #     "https://www.feixiaohao.com/coindetails/bitcoin/")
+        # soup = BeautifulSoup(response.read())
+        # div = soup.find_all('div', class_='artBox')
+
+        # for p in div:
+        #     print(p.get_text())
+        # # 获取某个币的文本介绍 end
+
+        # 获取某个币的文本介绍 begin
         response = urllib.request.urlopen(
-            "https://www.feixiaohao.com/newcoin/#CNY")
+            "https://www.feixiaohao.com/currencies/bitcoin/")
         soup = BeautifulSoup(response.read())
+        div = soup.find_all('div', class_='cell maket')
+
+        for p in div:
+            print(p.get_text())
+        # 获取某个币的文本介绍 end
+
         f = open('./test.txt', 'w+')
         for link in soup.find_all('tr'):
             f.write("|")
@@ -65,5 +82,5 @@ class Splider:
 
 splider = Splider()
 splider.initData()
-splider.getCoin()
+# splider.getCoin()
 # splider.getNews()
