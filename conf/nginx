@@ -17,15 +17,16 @@
 # Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
 server {
     listen 80; #默认的web访问端口
-    server_name 10.58.81.136; #你的公网ip 47.95.252.241
-    access_log  /home/wuh/work/myGit/myPro/log/access.log; #服务器接收的请求日志，需要在项目文件夹下创建,logs文件夹，下同。
-    error_log  /home/wuh/work/myGit/myPro/log/error.log; #错误日志
+    server_name 47.95.252.241; #你的公网ip 47.95.252.241
+    access_log  /home/work/myGit/myPro/log/access.log; #服务器接收的请求日志，需要在项目文件夹下创建,logs文件夹，下同。
+    error_log  /home/work/myGit/myPro/log/error.log; #错误日志
+
 
     location / {
         include      uwsgi_params;  #这里是导入的uwsgi配置
         uwsgi_pass 127.0.0.1:8000; # 需要和uwsgi的配置文件里socket项的地址相同,否则无法让uwsgi接收到请求. 指向uwsgi 所应用的内部地址,所有请求将转发给uwsgi 处理
-        uwsgi_param UWSGI_PYHOME  /home/wuh/work/myGit/myPro/venv/; # 指向虚拟环境目录
-        uwsgi_param UWSGI_CHDIR /home/wuh/work/myGit/myPro/app;  # 指向网站根目录
+        uwsgi_param UWSGI_PYHOME  /home/work/myGit/myPro/venv/; # 指向虚拟环境目录
+        uwsgi_param UWSGI_CHDIR /home/work/myGit/myPro/app;  # 指向网站根目录
         uwsgi_param UWSGI_SCRIPT main:app; # 指定启动程序
         uwsgi_read_timeout 100;
     }
